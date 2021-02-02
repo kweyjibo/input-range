@@ -1,0 +1,81 @@
+/* --------------- vars -------------------- */
+
+$cell-width: 14px;
+$cell-height: 24px;
+
+/* -------------- /vars -------------------- */
+
+
+/* --------------- Common -------------------- */
+
+.input-range {
+    position: relative;
+}
+
+.input-range_i {
+    margin: 0;
+    padding: 0 8px 4px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 28px;
+
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    outline: 0;
+
+    font-size: 14px;
+    line-height: 28px;
+    color: #333;
+}
+
+.input-range-scale_cnt {
+    position: relative;
+    overflow: hidden;
+
+    height: 4px;
+    background-color: #f0f0f0;
+    border-radius: 0 0 3px 3px;
+}
+
+.input-range-scale {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+
+    padding-top: 8px;
+    box-sizing: border-box;
+    height: 16px;
+}
+
+.input-range-scale_handle {
+    position: absolute;
+    top: 2px;
+    margin-left: -8px;
+    box-sizing: border-box;
+
+    width: 16px;
+    height: 16px;
+
+    background-color: #fff;
+    border: 2px solid #ee8208;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.input-range-scale_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background-color: #ee8208;
+}
+
+/* --------------- /Common ------------------- */
